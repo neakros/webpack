@@ -1,0 +1,27 @@
+.service_wrapper {
+  margin: 0 auto;
+  width: 1060px;
+    .service_content {
+      display: flex;
+      justify-content: space-between;
+        .header_content {
+          width: 510px;
+          height: 200px;
+          border: 1px solid black;
+        }
+        .web {
+          margin: 34px 0 28px 34px;
+          font-weight: 400;
+          font-size: 31px;
+        }
+        .web_info {
+          margin: 0 0 30px 34px;
+          font-weight: 400;
+          font-size: 18px;
+        }
+    }
+}
+
+.footer_content {
+  margin-top: 40px;
+}
