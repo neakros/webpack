@@ -1,0 +1,38 @@
+.article_wrapper {
+  margin: 0 auto;
+  width: 1060px;
+  img {
+    width: 240px;
+    height: 240px;
+    transform: translate(470%);
+  }
+    .article_content {
+      margin-top: 100px;
+      padding: 5px 53px 10px 34px;
+      border: 1px solid black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}
+
+.left_footer {
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.left_header {
+  color: rgb(233,77,53);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.article_right {
+  font-weight: 400;
+  font-size: 16px;
+    p {
+      width: 460px;
+    }
+}
+
