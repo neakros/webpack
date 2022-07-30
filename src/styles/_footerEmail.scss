@@ -1,0 +1,38 @@
+.wrapper_email {
+  width: 1440px;
+  height: 180px;
+  background-color: rgb(230,227,222);
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    .footer_email {
+      width: 1045px;
+      display: flex;
+      justify-content: space-between;
+        .email_left{
+          p {
+            font-weight: 400;
+            font-size: 23px;
+          }
+        }
+    }
+}
+
+.input_text {
+  width: 355px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.input_button {
+  width: 140px;
+  height: 56px;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+  font-size: 23px;
+  margin-left: 25px;
+  cursor: pointer;
+}

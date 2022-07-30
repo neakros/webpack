@@ -1,10 +1,22 @@
 .article_wrapper {
   margin: 0 auto;
   width: 1060px;
+  .browse_article {
+    color: white;
+    background-color: black;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      p {
+        font-weight: 400;
+        font-size: 20px;
+      }
+  }
   img {
     width: 240px;
     height: 240px;
-    transform: translate(470%);
+    transform: translate(470%, -70%);
   }
     .article_content {
       margin-top: 100px;
